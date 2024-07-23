@@ -1,0 +1,72 @@
+.navbar-content {
+  height: 100vh;
+  background-image: url(../../assets/Ed.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  color: white;
+  position: relative;
+}
+.navbar-content::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  /* z-index: 1; */
+}
+
+.navbar-content .list {
+  padding-top: 5rem;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin-left: 50rem;
+}
+
+.navbar-content .list .link {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  z-index: 999;
+}
+.navbar-content .list .link:hover {
+  border-bottom: 2px solid yellow;
+  padding-bottom: 3px;
+}
+.navbar-content .name-desc {
+  margin-left: 8rem;
+  margin-top: 15rem;
+}
+
+.navbar-content .name-desc h1 {
+  width: 50%;
+  margin-top: 20vh;
+  font-size: 4rem;
+  font-weight: bold;
+  position: relative;
+  z-index: 999;
+}
+
+.navbar-content .name-desc h1 span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: yellow;
+  animation: text_reveal_box 2s ease;
+}
+
+.navbar-content .name-desc p {
+  position: relative;
+  z-index: 999;
+  width: 50%;
+  /* line-height: 1; */
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
