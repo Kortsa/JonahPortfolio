@@ -8,27 +8,24 @@ function Home() {
     },
     {
       title: "About",
-      to: "",
+      to: "/about",
     },
-    {
-      title: "Home",
-      to: "",
-    },
+
     {
       title: "Resume",
-      to: "",
+      to: "/resume",
     },
     {
       title: "Portfolio",
-      to: "",
+      to: "/portfolio",
     },
     {
       title: "Contact",
-      to: "",
+      to: "/contact",
     },
   ];
   return (
-    <div className="navbar-content">
+    <div className="home-content">
       <div className="list">
         {Lists.map((list, index) => {
           return (
@@ -40,9 +37,7 @@ function Home() {
       </div>
 
       <div className="name-desc">
-        <h1>
-          Jonathan Edem Klu <span></span>{" "}
-        </h1>
+        <h1>Jonathan Edem Klu</h1>
         <p>
           I&apos;m a passionate Tech enthusiast, Graphic Designer, Product
           Designer, and a Photographer
