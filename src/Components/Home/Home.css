@@ -56,13 +56,7 @@
   display: inline-block;
   animation: typing 2s steps(100) forwards;
   white-space: nowrap;
- 
 }
-
-
-
-
-
 .home-content .name-desc p {
   position: relative;
   z-index: 999;
@@ -70,5 +64,161 @@
   /* line-height: 1; */
   letter-spacing: 2px;
   font-size: 1.2rem;
-  
+}
+
+/* responsiveness */
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .home-content {
+    /* height: 100vh; */
+    overflow-x: hidden;
+  }
+  .home-content .list {
+    padding-top: 2rem;
+    width: 80%;
+    margin-left: 20px;
+  }
+  .home-content .list .link {
+    font-size: 0.6rem;
+  }
+  .home-content .name-desc {
+    margin-top: 10rem;
+    margin-left: 20px;
+    width: 100%;
+  }
+  .home-content .name-desc h1 {
+    font-size: 1.8rem;
+  }
+  .home-content .name-desc p {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+ 
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .home-content {
+    overflow-x: hidden;
+  }
+
+  .home-content .list {
+    padding-top: 30px;
+    margin-left: 20rem;
+    width: 50%;
+  }
+  .home-content .list .link {
+    font-size: 1rem;
+  }
+  .home-content .name-desc {
+    margin-top: 8rem;
+    margin-left: 20px;
+    width: 100%;
+  }
+  .home-content .name-desc h1 {
+    font-size: 2.5rem;
+  }
+  .home-content .name-desc p {
+    width: 90%;
+    font-size: 1rem;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)  
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home-content {
+    /* height: 100vh; */
+    overflow-x: hidden;
+  }
+  .home-content .list {
+    padding-top: 20px;
+    width: 40%;
+    margin-left: 25rem;
+  }
+
+  .home-content .list .link {
+    font-size: 1rem;
+  }
+  .home-content .name-desc {
+    margin-top: 5rem;
+    margin-left: 20px;
+    width: 100%;
+  }
+  .home-content .name-desc h1 {
+    font-size: 4rem;
+  }
+
+  .home-content .name-desc p {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops  
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .home-content {
+    /* height: 100vh; */
+    overflow-x: hidden;
+  }
+  .home-content .list {
+    padding-top: 40px;
+    width: 45%;
+    margin-left: 33rem;
+  }
+  .home-content .list .link {
+    font-size: 1.5rem;
+  }
+
+  .home-content .name-desc {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    width: 100%;
+  }
+
+  .home-content .name-desc h1 {
+    font-size: 4rem;
+  }
+
+  .home-content .name-desc p {
+    width: 70%;
+    font-size: 1.2rem;
+  }
+}
+
+/* 
+  ##Device = Desktops 
+*/
+@media (min-width: 1281px) {
+  .home-content {
+    overflow-x: hidden;
+  }
+  .home-content .list {
+    padding-top: 40px;
+    width: 40%;
+    margin-left: 45rem;
+  }
+  .home-content .list .link {
+    font-size: 1.5rem;
+  }
+  .home-content .name-desc {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    width: 100%;
+  }
+  .home-content .name-desc h1 {
+    font-size: 4rem;
+  }
+  .home-content .name-desc p {
+    width: 50%;
+    font-size: 1.2rem;
+  }
 }

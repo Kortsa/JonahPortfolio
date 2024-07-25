@@ -40,7 +40,7 @@ function Home() {
         <h1>Jonathan Edem Klu</h1>
         <p>
           I&apos;m a passionate Tech enthusiast, Graphic Designer, Product
-          Designer, and a Photographer
+          Designer, and a Photographer.
         </p>
       </div>
     </div>
