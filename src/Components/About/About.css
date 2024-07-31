@@ -166,3 +166,100 @@
 .container .interests .interest-container .interest h5 {
   font-size: 1.2rem;
 }
+
+/* Media queries */
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .about-contents {
+    padding-left: 1rem;
+  }
+  .about-contents h2 {
+    position: relative;
+    font-size: 2.2rem;
+    left: 50%;
+  }
+  .container {
+    padding: 1rem;
+    margin-top: 0;
+    margin-right: 1rem;
+  }
+  .container h3 {
+    font-size: 1rem;
+  }
+  .container h3 hr {
+    width: 3rem;
+  }
+  .container h1 {
+    font-size: 1.5rem;
+  }
+  .container .about-desc {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .about-desc .img {
+    height: 20rem;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .container .about-desc .desc p {
+    width: 100%;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    line-height: 2;
+  }
+  .container .about-desc .icons {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container .about-desc .icon img {
+    height: 55%;
+    width: 5%;
+  }
+  .container .about-desc .icon h5 {
+    font-size: 0.7rem;
+  }
+  .container .about-desc .icon p {
+    font-size: 0.8rem;
+    margin-left: 10px;
+  }
+  .container .skills {
+    margin-top: 30px;
+  }
+  .container .skills .skills-container {
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container .skills .skills-container .skill {
+    width: 100%;
+    height: 120px;
+    margin-top: 2.5rem;
+  }
+  .container .skills .skills-container .skill img {
+    height: 50px;
+    width: 50px;
+    margin-top: -70px;
+  }
+  .container .skills .skills-container .skill h5 {
+    font-size: 1rem;
+    margin-top: 30px;
+  }
+  .container .interests .interest-container {
+    display: grid;
+  grid-template-columns: 1fr ;
+  }
+  .container .interests .interest-container .interest{
+    width: 100%;
+    height: 120px;
+  }
+  .container .interests .interest-container .interest img{
+    height: 50px;
+    width: 50px;
+  }
+  .container .interests .interest-container .interest h5{
+    font-size: 1rem;
+  }
+}

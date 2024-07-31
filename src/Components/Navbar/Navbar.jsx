@@ -84,7 +84,7 @@ function Navbar() {
     },
     {
       title: "Contact",
-      to: "portfolio",
+      to: "/contact",
     },
   ];
 

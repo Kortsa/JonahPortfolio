@@ -147,23 +147,20 @@
   }
 }
 
-
 /* 
   ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px
 */
 @media (min-width: 1025px) and (max-width: 1280px) {
-  
-  .hamburger-menu{
+  .hamburger-menu {
     display: none;
   }
-  
 }
 
 /* 
   ##Device = Desktops  ##Screen = 1281px to higher resolution desktops
 */
 @media (min-width: 1281px) {
-  .hamburger-menu{
+  .hamburger-menu {
     display: none;
   }
 }
