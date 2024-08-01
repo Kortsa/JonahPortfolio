@@ -3,7 +3,7 @@
   margin-bottom: 10px;
   display: flex;
   align-items: center;
-  width: 100%;
+  /* width: 100%; */
   background-color: black;
 }
 
@@ -95,6 +95,9 @@
   ##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .navbar .hamburger-menu {
+    /* display: none; */
+  }
   .navbar .list {
     display: none;
   }
@@ -126,6 +129,7 @@
   .navbar .list {
     display: none;
   }
+
   .navbar {
     display: flex;
     padding: 10px;

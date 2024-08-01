@@ -249,17 +249,240 @@
   }
   .container .interests .interest-container {
     display: grid;
-  grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
   }
-  .container .interests .interest-container .interest{
+  .container .interests .interest-container .interest {
     width: 100%;
     height: 120px;
   }
-  .container .interests .interest-container .interest img{
+  .container .interests .interest-container .interest img {
     height: 50px;
     width: 50px;
   }
-  .container .interests .interest-container .interest h5{
+  .container .interests .interest-container .interest h5 {
     font-size: 1rem;
   }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+ 
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .about-contents {
+    padding-left: 1rem;
+  }
+  .about-contents h2 {
+    position: relative;
+    font-size: 2.5rem;
+    left: 50%;
+  }
+  .container {
+    padding: 1rem;
+    margin-top: 0;
+    margin-right: 1rem;
+  }
+  .container h3 {
+    font-size: 1.5rem;
+  }
+  .container h3 hr {
+    width: 4rem;
+  }
+  .container h1 {
+    font-size: 2rem;
+  }
+  .container .about-desc {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .about-desc .img {
+    height: 27rem;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .container .about-desc .desc p {
+    width: 100%;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    line-height: 2;
+  }
+  .container .about-desc .icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .container .about-desc .icon img {
+    height: 55%;
+    width: 5%;
+  }
+  .container .about-desc .icon h5 {
+    font-size: 0.7rem;
+  }
+  .container .about-desc .icon p {
+    font-size: 0.8rem;
+    margin-left: 10px;
+  }
+  .container .skills {
+    margin-top: 30px;
+  }
+  .container .skills .skills-container {
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container .skills .skills-container .skill {
+    width: 100%;
+    height: 120px;
+    margin-top: 2.5rem;
+  }
+  .container .skills .skills-container .skill img {
+    height: 50px;
+    width: 50px;
+    margin-top: -70px;
+  }
+  .container .skills .skills-container .skill h5 {
+    font-size: 1rem;
+    margin-top: 30px;
+  }
+  .container .interests .interest-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container .interests .interest-container .interest {
+    width: 100%;
+    height: 120px;
+  }
+  .container .interests .interest-container .interest img {
+    height: 50px;
+    width: 50px;
+  }
+  .container .interests .interest-container .interest h5 {
+    font-size: 1rem;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about-contents {
+    padding: 1rem;
+  }
+  .about-contents h2 {
+    position: relative;
+    font-size: 2.5rem;
+    left: 50%;
+  }
+  .container {
+    margin-top: 0;
+    padding: 1rem;
+    margin-right: 1rem;
+  }
+  .container h3 {
+    font-size: 1.3rem;
+  }
+  .container h3 hr {
+    width: 4rem;
+  }
+  .container h1 {
+    font-size: 2rem;
+  }
+  .container .about-desc {
+    display: flex;
+  }
+  .container .about-desc .img {
+    width: 20rem;
+    height: 27rem;
+  }
+  .container .about-desc .desc {
+    width: 50%;
+  }
+  .container .about-desc .desc h1 {
+    font-size: 1.3rem;
+  }
+  .container .about-desc .desc p {
+    width: 100%;
+    line-height: 1.4;
+    font-size: 1.2rem;
+  }
+  .container .about-desc .icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0;
+  }
+  .container .about-desc .icon img {
+    /* height: 5%; */
+    width: 10%;
+  }
+  .container .about-desc .icon h5 {
+    font-size: 0.6rem;
+  }
+  .container .about-desc .icon p {
+    font-size: 0.7rem;
+    margin-left: 10px;
+  }
+
+  .container .skills .skills-container {
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .container .skills .skills-container .skill {
+    width: 100%;
+    height: 120px;
+    margin-top: 2.5rem;
+  }
+  .container .skills .skills-container .skill img {
+    height: 50px;
+    width: 50px;
+    margin-top: -70px;
+  }
+  .container .skills .skills-container .skill h5 {
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
+  .container .interests .interest-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .container .interests .interest-container .interest {
+    width: 100%;
+    height: 120px;
+  }
+  .container .interests .interest-container .interest img {
+    height: 50px;
+    width: 50px;
+  }
+  .container .interests .interest-container .interest h5 {
+    font-size: 1rem;
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px){
+  .about-contents h2{
+    left: 32%;
+    top: 29%;
+  }
+
+  .container .skills .skills-container .skill{
+    width: 100%;
+  }
+  .container .interests .interest-container .interest{
+    width: 100%;
+  }
+  .container{
+    width: auto;
+   /* padding: 5rem; */
+   margin-right: 2rem;
+   margin-left: 0;
+  }
+}
+
+/* 
+  ##Device = Desktops  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px){
+
 }
